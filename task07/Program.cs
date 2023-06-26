@@ -5,7 +5,8 @@
 7 -> нет
 */
 int number = Convert.ToInt32(Console.ReadLine());
-if (number % 2 == 1)
-Console.WriteLine("нет, нечётное");
-else
+int remDiv = number % 2;
+if (remDiv == 0)
 Console.WriteLine("да, чётное");
+else
+Console.WriteLine("нет, нечётное");
