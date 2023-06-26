@@ -6,6 +6,6 @@
 */
 int number = Convert.ToInt32(Console.ReadLine());
 if (number % 2 == 1)
-Console.WriteLine("нечётное");
+Console.WriteLine("нет, нечётное");
 else
-Console.WriteLine("чётное");
+Console.WriteLine("да, чётное");
